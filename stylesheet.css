@@ -1,0 +1,347 @@
+/*
+
+Colors used - 
+
+red #ae4c42
+dark red #831e14
+grey #838f97
+indigo #3374ce
+*/
+
+.login-body{
+    background: #ae4c42;/*red*/
+}
+
+.divhome{ /* On login / home page */
+    
+    /*Setting up the box*/
+    height: 280px;
+    width: 320px;
+    /*border: 1px solid;*/
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #831e14;/*dark red*/
+    
+    /*Putting in the box in the middle*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -160px;
+    
+    /*Designing the box*/
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #fff;
+    overflow: auto;
+    
+}
+
+.divreg{ /* On the registration page */
+    
+    /*Setting up the box*/
+    height: 700px;
+    width: 500px;
+    /*border: 1px solid;*/
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #831e14;/*dark red*/
+    
+    /*Putting in the box in the middle*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -250px;
+    
+    /*Designing the box*/
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #fff;
+    
+    /* Scrollbar */
+    overflow: auto;
+    
+}
+
+.divmain{ /* On login / home page */
+    
+    /*Setting up the box*/
+    height: 280px;
+    width: 500px;
+    /*border: 1px solid;*/
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #831e14;/*dark red*/
+    
+    /*Putting in the box in the middle*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -140px;
+    margin-left: -250px;
+    
+    /*Designing the box*/
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #fff;
+    overflow: auto;
+    align-items: center;
+    
+}
+
+.divlist{ /* On login / home page */
+    
+    /*Setting up the box*/
+    height: auto;
+    width: 900px;
+    /*border: 1px solid;*/
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #831e14;/*dark red*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /*Designing the box*/
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #e9ebee;
+    overflow: auto;
+    align-items: center;
+    
+}
+
+.hometab{
+    width:100%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    font-family: "Tahoma" ,serif;
+    font-size: 16px;
+    color: #3374ce; /* indigo blue */
+    text-shadow: 0px 0px 5px #838f97; /*grey color*/
+}
+
+.login-sign{
+    
+    font-family: "Tahoma" ,serif;
+    font-size: 16px;
+    color: #3374ce; /* indigo blue */
+    text-shadow: 0px 0px 4px #838f97; /*grey color*/
+}
+
+.movelist{
+    
+    font-family: "Tahoma" ,serif;
+    font-size: 16px;
+    color: #000; /* black blue */
+    text-shadow: 0px 0px 2px #000; /*grey color*/
+}
+
+.movelist#big{
+    
+    font-family: "Tahoma" ,serif;
+    font-size: 20px;
+    color: #000; /* black blue */
+    text-shadow: 0px 0px 4px #000; /*grey color*/
+}
+
+
+.h1small{
+    
+    font-family: "Tahoma" ,serif;
+    font-size: 25px;
+    color: #3374ce; /* indigo blue */
+    text-shadow: 0px 0px 5px #838f97; /*grey color*/
+    
+}
+
+.h1big{
+    
+    font-family: "Tahoma" ,serif;
+    font-size: 75px;
+    color: #fff;
+    text-shadow: 0px 0px 10px #831e14; /*dark red*/
+    
+}
+
+.errormess{
+    
+    font-family: "Tahoma" ,serif;
+    font-size: 16px;
+    color: #ae4c42; /* indigo blue */
+    text-shadow: 0px 0px 4px #831e14; /*grey color*/
+    
+}
+
+input[type=submit] {
+    
+    padding:5px 15px ; 
+    background:#3374ce; /* indigo blue */
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    font-size: 18px;
+    color: #fff;
+}
+input[type=submit]:hover {
+    background:#235190; /* indigo blue */
+}
+
+
+input#cart{
+    
+    /* Cart image */
+    background: #3374ce url('res/cart.png') no-repeat 5% 50%;
+    
+    padding-left: 30px;
+    padding-top:5px ; 
+    padding-bottom: 5px;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    font-size: 18px;
+    color: #fff;
+}
+
+input#cart:hover {
+    background:#235190 url('res/cart.png') no-repeat 5% 50%; /* indigo blue */
+}
+
+.table-reg{
+    
+    width:100%;
+    text-align: center;
+    font-family: "Tahoma" ,serif;
+    font-size: 16px;
+    color: #3374ce; /* indigo blue */
+    text-shadow: 0px 0px 5px #838f97; /*grey color*/
+    
+}
+
+th, td {
+    padding: 10px;
+}
+
+/* Navbar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #333;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: "Tahoma" ,serif;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #000;
+}
+
+.active {
+    background-color: #235190;
+}
+
+
+li#cart {
+    float: left;
+    border-right:1px solid #333;
+    background:#333 url('res/cart_black.png') no-repeat 5% 50%;
+    
+}
+
+li#cart a:hover:not(.active) {
+    background:#000 url('res/cart_black.png') no-repeat 5% 50%;
+}
+
+/* Modal box for add to cart button */
+
+ /* background */
+.modal {
+    display: block; 
+    position: fixed; 
+    z-index: 1; 
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: #000 /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Box */
+.modal-content {
+    background-color: #fefefe;
+    border-radius: 10px;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 15px solid #ae4c42;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+
+
+/* close button */
+.closebtn {
+    float: right;
+    padding:5px 15px ; 
+    background:#3374ce; /* indigo blue */
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px; 
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.listmain {		
+    margin: 15px;
+    display: flex; 
+	border-radius: 10px;
+	background: #fff;
+    box-shadow: 0 0 10px #d1d1d1;
+	overflow: auto;
+}
+.listmain:hover {		
+    box-shadow: 0 0 10px #3374ce;
+}
+
+.listleft {
+	width: 20%;
+    margin: 15px 0px;
+    padding: 25px; 
+}
+
+.listleft#big {
+	width: 40%;
+    margin: 15px 0px;
+    padding: 25px; 
+}
+
+.listleft# {
+	width: 20%;
+    margin: 15px 0px;
+    padding: 25px; 
+}
+
+.listright {
+    flex: initial;
+    padding: 5px;
+	overflow: auto;
+}
+.listimage {
+    display: block;
+    float: left;
+}
